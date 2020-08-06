@@ -1,4 +1,7 @@
 # asn1.js-rfc5652
+
+[![Build Status](https://travis-ci.org/sigex-kz/asn1.js-rfc5652.svg?branch=master)](https://travis-ci.org/sigex-kz/asn1.js-rfc5652)
+
 Incomplete RFC5652 definitions for https://github.com/indutny/asn1.js/
 
 See sources to identify what's implemented and tests for basic examples.
