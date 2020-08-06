@@ -1,0 +1,35 @@
+{
+  "name": "@sigex-kz/asn1.js-rfc5652",
+  "version": "1.0.0",
+  "description": "RFC5652 definitions for https://github.com/indutny/asn1.js/",
+  "author": "sigex-kz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sigex-kz/asn1.js-rfc5652.git"
+  },
+  "keywords": [
+    "asn1.js",
+    "rfc5652",
+    "cms"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sigex-kz/asn1.js-rfc5652/issues"
+  },
+  "homepage": "https://github.com/sigex-kz/asn1.js-rfc5652#readme",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "mocha": "^8.1.1"
+  },
+  "dependencies": {
+    "asn1.js": "^5.4.1",
+    "asn1.js-rfc5280": "^3.0.0"
+  },
+  "scripts": {
+    "test": "eslint '**/*.js' && mocha test",
+    "lint": "eslint '**/*.js'"
+  }
+}
