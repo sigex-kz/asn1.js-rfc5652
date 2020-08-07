@@ -6,6 +6,24 @@ Incomplete RFC5652 definitions for https://github.com/indutny/asn1.js/
 
 See sources to identify what's implemented and tests for basic examples.
 
+## Install
+
+```
+npm install @sigex-kz/asn1.js-rfc5652
+```
+
+## Usage
+
+```js
+const cms = rfc5652.ContentInfo.decode(cmsPemString, 'pem', { label: 'CMS' });
+
+console.log(cms.content.version);
+console.log(cms.contentType);
+console.log(cms.content.encapContentInfo.eContent);
+
+const newCmsPemString = rfc5652.ContentInfo.encode(cms, 'pem', { label: 'CMS' });
+```
+
 ## Test data generation
 ```
 cd test/fixtures/
