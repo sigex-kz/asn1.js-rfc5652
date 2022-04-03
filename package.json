@@ -1,6 +1,6 @@
 {
   "name": "@sigex-kz/asn1.js-rfc5652",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "RFC5652 definitions for https://github.com/indutny/asn1.js/",
   "author": "sigex-kz",
   "repository": {
